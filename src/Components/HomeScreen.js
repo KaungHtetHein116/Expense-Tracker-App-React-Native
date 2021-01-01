@@ -45,7 +45,7 @@ function Item({title, id, price}) {
               fontWeight: '400',
               color: price > 0 ? '#009BFC' : '#ff4500',
             }}>
-            {price > 0 ? `₦${price}` : `₦${Math.abs(price)}`}
+            {price > 0 ? `${price} Kyats` : `${Math.abs(price)} Kyats`}
           </Text>
         </Right>
       </ListItem>

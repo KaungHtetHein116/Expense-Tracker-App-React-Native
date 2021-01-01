@@ -20,15 +20,16 @@ const Balance = ({navigation}) => {
     <LinearGradient
       colors={['#FAAD3D', '#EFC90A', '#F1CB0C']}
       style={styles.Box}>
-      <View style={{width: '70%', alignItems: 'flex-start'}}>
+      <View
+        style={{width: '70%', alignItems: 'flex-start', alignSelf: 'center'}}>
         <Text
           style={{
-            fontSize: 15,
+            fontSize: 25,
             color: '#fff',
             fontFamily: 'Lato-Regular',
             fontWeight: '700',
           }}>
-          Income
+          Wallet
         </Text>
         <Text
           style={{
@@ -37,10 +38,10 @@ const Balance = ({navigation}) => {
             color: '#fff',
             fontWeight: '700',
           }}>
-          ₦{totalPrice}
+          {totalPrice} Kyats
         </Text>
 
-        <Text
+        {/* <Text
           style={{
             marginTop: 67,
             color: '#fff',
@@ -49,7 +50,7 @@ const Balance = ({navigation}) => {
             fontWeight: '700',
           }}>
           4234 **** **** 6533
-        </Text>
+        </Text> */}
       </View>
 
       <View
@@ -57,9 +58,9 @@ const Balance = ({navigation}) => {
           alignItems: 'flex-end',
           width: '30%',
         }}>
-        <Text style={{fontSize: 18, color: '#fff', fontWeight: '700'}}>
+        {/* <Text style={{fontSize: 18, color: '#fff', fontWeight: '700'}}>
           NGN
-        </Text>
+        </Text> */}
         <View style={{flex: 1}}>
           <Button
             rounded
@@ -95,8 +96,9 @@ const Balance = ({navigation}) => {
               color: '#fff',
               fontSize: 18,
               fontWeight: '700',
+              color: 'red',
             }}>
-            -₦{expense}
+            -{expense} Kyats
           </Text>
         </View>
       </View>

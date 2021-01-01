@@ -21,7 +21,7 @@ function App() {
             name="Home"
             component={HomeScreen}
             options={{
-              title: 'Expense tracker',
+              title: 'Expense tracker App',
             }}
           />
           <Stack.Screen
