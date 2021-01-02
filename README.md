@@ -1,6 +1,6 @@
 # Expense-Tracker-App-React-Native
 
-#### A cross-platform mobile applications that tracks the income and expense of your wallet in which you can add/delete your transactions.
+#### A cross-platform mobile application that tracks your income and expense of your wallet in which you can add/delete your transactions.
 
 ### Main libraries used
 * Redux
@@ -8,3 +8,5 @@
 
 
 <a href="https://imgflip.com/gif/4satym"><img src="https://i.imgflip.com/4satym.gif" title="gif"/></a>
+
+[CLICK HERE](https://www.youtube.com/watch?v=OFwwwOVoSxw) to see showcase of demo app
